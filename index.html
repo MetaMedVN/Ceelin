@@ -1312,8 +1312,8 @@ const CATS=[
   ['Dược sĩ chuỗi nhà thuốc','Dược sĩ Long Châu, Pharmacity giải thích "mỗi sáng một lần".',['ceelin','new','up'],['View','Click về trang sản phẩm chuỗi'],['Báo cáo chuỗi, UTM']]]}
 ];
 const MV=(src,poster,cap,auto)=>`<figure class="mv"><video src="${src}" poster="${poster}" ${auto?'data-auto="1" autoplay muted loop':''} controls playsinline preload="${auto?'auto':'metadata'}"></video><figcaption>${cap}</figcaption></figure>`;
-const ATLMEDIA=`<div class="cmedia"><div class="cm-h">iTVC 2026</div><div class="cm-row two">${MV('media/itvc-ceelin.mp4','media/itvc-ceelin.jpg','iTVC Ceelin',1)}${MV('media/itvc-ceelinz.mp4','media/itvc-ceelinz.jpg','iTVC Ceelin+Z',1)}</div>
-<div class="cm-h">Tham khảo jingle</div><div class="cm-row jg">${MV('media/jingle-jt.mp4','media/jingle-jt.jpg','J&T Express | Gửi đâu cũng ship')}${MV('media/jingle-comfort.mp4','media/jingle-comfort.jpg','Comfort Việt Nam | TikTok')}</div>
+const ATLMEDIA=`<div class="cmedia"><div class="cm-h">iTVC 2026</div><div class="cm-row two">${MV('itvc-ceelin.mp4','itvc-ceelin.jpg','iTVC Ceelin',1)}${MV('itvc-ceelinz.mp4','itvc-ceelinz.jpg','iTVC Ceelin+Z',1)}</div>
+<div class="cm-h">Tham khảo jingle</div><div class="cm-row jg">${MV('jingle-jt.mp4','jingle-jt.jpg','J&T Express | Gửi đâu cũng ship')}${MV('jingle-comfort.mp4','jingle-comfort.jpg','Comfort Việt Nam | TikTok')}</div>
 <p class="cm-p">Jingle ngắn, dễ hát theo, có mascot và cử chỉ để mẹ, bé làm theo. Đây là hướng cho "Siro C mỗi sáng".</p></div>`;
 const PILL={ceelin:'<i>Ceelin</i>',z:'<i class="z">Ceelin+Z</i>',new:'<i class="new">Mới</i>',up:'<i class="up">Khi có thêm ngân sách</i>'};
 const ctabs=document.getElementById('ctabs'),cpanels=document.getElementById('cpanels');
